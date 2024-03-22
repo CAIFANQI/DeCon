@@ -1,0 +1,4 @@
+class_name='my_class'
+extensions=['AA', 'Be', 'CC']
+return_val='my_class.AA'
+-------------------

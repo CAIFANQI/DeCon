@@ -1,0 +1,6 @@
+S="Hello world"
+return_val=0
+-------------------
+S="The sky is blue. The sun is shining. I love this weather"
+return_val=1
+-------------------

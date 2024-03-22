@@ -1,0 +1,12 @@
+brackets="<"
+return_val=False
+-------------------
+brackets="<>"
+return_val=True
+-------------------
+brackets="<<><>>"
+return_val=True
+-------------------
+brackets="><<>"
+return_val=False
+-------------------

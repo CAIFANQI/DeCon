@@ -1,0 +1,6 @@
+s="Hi, my name is John"
+return_val=["Hi", "my", "name", "is", "John"]
+-------------------
+s="One, two, three, four, five, six"
+return_val=["One", "two", "three", "four", "five", "six"]
+-------------------

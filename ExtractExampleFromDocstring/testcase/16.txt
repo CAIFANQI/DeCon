@@ -1,0 +1,6 @@
+string='xyzXYZ'
+return_val=3
+-------------------
+string='Jerry'
+return_val=4
+-------------------

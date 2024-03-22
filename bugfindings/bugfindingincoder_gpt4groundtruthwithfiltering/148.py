@@ -1,0 +1,54 @@
+
+def bf(planet1, planet2):
+    '''
+    There are eight planets in our solar system: the closerst to the Sun 
+    is Mercury, the next one is Venus, then Earth, Mars, Jupiter, Saturn, 
+    Uranus, Neptune.
+    Write a function that takes two planet names as strings planet1 and planet2. 
+    The function should return a tuple containing all planets whose orbits are 
+    located between the orbit of planet1 and the orbit of planet2, sorted by 
+    the proximity to the sun. 
+    The function should return an empty tuple if planet1 or planet2
+    are not correct planet names. 
+    Examples
+    bf("Jupiter", "Neptune") ==> ("Saturn", "Uranus")
+    bf("Earth", "Mercury") ==> ("Venus")
+    bf("Mercury", "Uranus") ==> ("Venus", "Earth", "Mars", "Jupiter", "Saturn")
+    '''
+    planet_names = ("Mercury", "Venus", "Earth", "Mars", "Jupyter", "Saturn", "Uranus", "Neptune")
+    if planet1 not in planet_names or planet2 not in planet_names or planet1 == planet2:
+        return ()
+    planet1_index = planet_names.index(planet1)
+    planet2_index = planet_names.index(planet2)
+    if planet1_index < planet2_index:
+        return (planet_names[planet1_index + 1: planet2_index])
+    else:
+        return (planet_names[planet2_index + 1 : planet1_index])
+assert (bf('Earth', 'Mars')) == ()
+assert (bf('Mars', 'Jupiter')) == ()
+assert (bf('Jupiter', 'Saturn')) == ()
+assert (bf('Saturn', 'Uranus')) == ()
+assert (bf('Uranus', 'Neptune')) == ()
+assert (bf('Mercury', 'Venus')) == ()
+assert (bf('Venus', 'Earth')) == ()
+assert bf('Venus','Earth') == ()
+assert bf('Earth','Mars') == ()
+assert bf('Mars','Jupiter') == ()
+assert bf('saturn','venus') == ()
+assert bf('venus', 'earth') == ()
+assert bf('venus','mars') == ()
+assert bf('mars', 'jupiter') == ()
+assert bf('jupiter','saturn') == ()
+assert bf('saturn', 'uranus') == ()
+assert bf('uranus', 'neptune') == ()
+assert bf('neptune','mars') == ()
+assert bf('neptune','mercury') == ()
+assert bf('mercury','venus') == ()
+assert bf('Venus', 'Earth') == ()
+assert bf('a', 'b') == ()
+assert bf('uranus','mercury') == ()
+assert bf(planet1 = 'Earth', planet2 = 'Earth') == ()
+assert bf(planet1 = 'Mars', planet2 = 'Mars') == ()
+assert bf('mars', 'earth') == ()
+assert bf('venus','mercury') == ()
+assert bf('Mercury', 'Sun') == ()

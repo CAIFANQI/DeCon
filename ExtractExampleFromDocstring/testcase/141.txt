@@ -1,0 +1,6 @@
+file_name="example.txt"
+return_val='Yes'
+-------------------
+file_name="1example.dll"
+return_val='No'
+-------------------

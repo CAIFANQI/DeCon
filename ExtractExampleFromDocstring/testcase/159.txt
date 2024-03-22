@@ -1,0 +1,20 @@
+number=5
+need=6
+remaining=10
+return_val=[11, 4]
+-------------------
+number=4
+need=8
+remaining=9
+return_val=[12, 1]
+-------------------
+number=1
+need=10
+remaining=10
+return_val=[11, 0]
+-------------------
+number=2
+need=11
+remaining=5
+return_val=[7, 0]
+-------------------

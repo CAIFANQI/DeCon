@@ -1,0 +1,12 @@
+word="yogurt"
+return_val="u"
+-------------------
+word="FULL"
+return_val="U"
+-------------------
+word="quick"
+return_val=""
+-------------------
+word="ab"
+return_val=""
+-------------------

@@ -1,0 +1,15 @@
+date='03-11-2000'
+return_val=True
+-------------------
+date='15-01-2012'
+return_val=False
+-------------------
+date='04-0-2040'
+return_val=False
+-------------------
+date='06-04-2020'
+return_val=True
+-------------------
+date='06/04/2020'
+return_val=False
+-------------------

@@ -1,0 +1,12 @@
+string='Hello'
+return_val=True
+-------------------
+string='abcdcba'
+return_val=True
+-------------------
+string='kittens'
+return_val=True
+-------------------
+string='orange'
+return_val=False
+-------------------

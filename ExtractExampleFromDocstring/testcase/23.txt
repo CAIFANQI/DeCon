@@ -1,0 +1,6 @@
+string=''
+return_val=0
+-------------------
+string='abc'
+return_val=3
+-------------------

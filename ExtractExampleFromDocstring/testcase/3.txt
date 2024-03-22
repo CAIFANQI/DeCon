@@ -1,0 +1,6 @@
+operations=[1, 2, 3]
+return_val=False
+-------------------
+operations=[1, 2, -4, 5]
+return_val=True
+-------------------
