@@ -1,0 +1,6 @@
+s="hello pku"
+return_val="czggjikfp"
+-------------------
+s="welcome pku"
+return_val="rzgxjhzikfp"
+-------------------

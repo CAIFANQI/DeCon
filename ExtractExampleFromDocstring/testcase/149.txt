@@ -1,0 +1,6 @@
+lst=["aa", "a", "aaa"]
+return_val=["aa"]
+-------------------
+lst=["ab", "a", "aaa", "cd"]
+return_val=["ab", "cd"]
+-------------------

@@ -1,0 +1,6 @@
+s="hello world pku"
+return_val="lhe lorwo ldupk"
+-------------------
+s="pku hello Humaneval"
+return_val="upke hollu Hnmaaevl"
+-------------------

@@ -1,0 +1,8 @@
+strings=[]
+prefix='a'
+return_val=[]
+-------------------
+strings=['abc', 'bcd', 'cde', 'array']
+prefix='a'
+return_val=['abc', 'array']
+-------------------

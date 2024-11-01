@@ -1,0 +1,9 @@
+txt="Hello world!"
+return_val=["Hello", "world!"]
+-------------------
+txt="Hello,world!"
+return_val=["Hello", "world!"]
+-------------------
+txt="abcdef"
+return_val=3
+-------------------

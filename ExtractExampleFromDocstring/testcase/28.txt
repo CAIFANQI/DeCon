@@ -1,0 +1,6 @@
+strings=[]
+return_val=''
+-------------------
+strings=['a', 'b', 'c']
+return_val='abc'
+-------------------

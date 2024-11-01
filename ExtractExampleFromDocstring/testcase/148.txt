@@ -1,0 +1,12 @@
+planet1="Jupiter"
+planet2="Neptune"
+return_val=("Saturn", "Uranus")
+-------------------
+planet1="Earth"
+planet2="Mercury"
+return_val=("Venus",)
+-------------------
+planet1="Mercury"
+planet2="Uranus"
+return_val=("Venus", "Earth", "Mars", "Jupiter", "Saturn")
+-------------------

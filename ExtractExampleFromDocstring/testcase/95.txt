@@ -1,0 +1,15 @@
+dict={"a":"apple", "b":"banana"}
+return_val=True
+-------------------
+dict={"a":"apple", "A":"banana", "B":"banana"}
+return_val=False
+-------------------
+dict={"a":"apple", 8:"banana", "a":"apple"}
+return_val=False
+-------------------
+dict={"Name":"John", "Age":"36", "City":"Houston"}
+return_val=False
+-------------------
+dict={"STATE":"NC", "ZIP":"12345" }
+return_val=True
+-------------------

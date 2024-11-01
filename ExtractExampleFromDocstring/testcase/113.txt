@@ -1,0 +1,6 @@
+lst=['1234567']
+return_val=["the number of odd elements 4n the str4ng 4 of the 4nput."]
+-------------------
+lst=['3',"11111111"]
+return_val=['the number of odd elements 1n the str1ng 1 of the 1nput.', 'the number of odd elements 8n the str8ng 8 of the 8nput.']
+-------------------

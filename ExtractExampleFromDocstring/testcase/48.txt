@@ -1,0 +1,12 @@
+text=''
+return_val=True
+-------------------
+text='aba'
+return_val=True
+-------------------
+text='aaaaa'
+return_val=True
+-------------------
+text='zbcd'
+return_val=False
+-------------------

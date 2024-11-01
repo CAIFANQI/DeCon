@@ -1,0 +1,9 @@
+strings=[]
+return_val=None
+-------------------
+strings=['a', 'b', 'c']
+return_val='a'
+-------------------
+strings=['a', 'bb', 'ccc']
+return_val='ccc'
+-------------------

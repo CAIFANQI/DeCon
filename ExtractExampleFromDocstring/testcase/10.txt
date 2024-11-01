@@ -1,0 +1,9 @@
+string=''
+return_val=''
+-------------------
+string='cat'
+return_val='catac'
+-------------------
+string='cata'
+return_val='catac'
+-------------------
