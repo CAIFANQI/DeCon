@@ -1,6 +1,0 @@
-message='test'
-return_val='TGST'
--------------------
-message='This is a message'
-return_val='tHKS KS C MGSSCGG'
--------------------

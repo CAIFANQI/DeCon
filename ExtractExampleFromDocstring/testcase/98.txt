@@ -1,9 +1,0 @@
-s='aBCdEf'
-return_val=1
--------------------
-s='abcdefg'
-return_val=0
--------------------
-s='dBBE'
-return_val=0
--------------------

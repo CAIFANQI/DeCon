@@ -1,9 +1,0 @@
-n=4
-return_val=False
--------------------
-n=6
-return_val=False
--------------------
-n=8
-return_val=True
--------------------

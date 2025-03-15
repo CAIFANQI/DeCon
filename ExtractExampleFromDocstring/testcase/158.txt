@@ -1,9 +1,0 @@
-words=["name", "of", "string"]
-return_val="string"
--------------------
-words=["name", "enam", "game"]
-return_val="enam"
--------------------
-words=["aaaaaaa", "bb" ,"cc"]
-return_val="aaaaaaa"
--------------------

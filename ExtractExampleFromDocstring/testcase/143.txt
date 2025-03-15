@@ -1,7 +1,0 @@
-sentence="This is a test"
-return_val="is"
--------------------
-sentence="lets go for swimming"
-return_val="go for"
--------------------
-

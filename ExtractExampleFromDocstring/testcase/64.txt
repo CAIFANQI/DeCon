@@ -1,6 +1,0 @@
-s="abcde"
-return_val=2
--------------------
-s="ACEDY"
-return_val=3
--------------------

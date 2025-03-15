@@ -1,3 +1,0 @@
-numbers='three one five'
-return_val='one three five'
--------------------

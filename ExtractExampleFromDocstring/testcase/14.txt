@@ -1,3 +1,0 @@
-string='abc'
-return_val=['a', 'ab', 'abc']
--------------------

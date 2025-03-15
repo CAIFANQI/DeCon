@@ -1,6 +1,0 @@
-decimal=15
-return_val="db1111db"
--------------------
-decimal=32
-return_val="db100000db"
--------------------

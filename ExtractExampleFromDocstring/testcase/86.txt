@@ -1,9 +1,0 @@
-s='Hi'
-return_val='Hi'
--------------------
-s='hello'
-return_val='ehllo'
--------------------
-s='Hello World!!!'
-return_val='Hello !!!Wdlor'
--------------------
